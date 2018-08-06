@@ -1,11 +1,12 @@
 <h1>Description: </h1>
 
-<em>" # "</em> ===> Title
 
-<em>" * "</em> ===> Subtitle
+<em>" # "</em>    ===> Title
 
-<em>" -> "</em> ===> Comment
+<em>" * "</em>    ===> Subtitle
 
-<em>"  "</em> ===> Code
+<em>" -> "</em>   ===> Comment
 
-<em>" {} "</em> ===> Reference
+<em>"  "</em>     ===> Code
+
+<em>" {} "</em>   ===> Reference
