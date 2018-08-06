@@ -1,4 +1,0 @@
-# EDITING COMMIT
-
--> useful before sending to repository remote
-    git commit --ammend

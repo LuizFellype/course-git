@@ -1,4 +1,0 @@
-# PICK A SPECIFIC COMMIT FROM ANOTHER BRANCH
-
--> pick a specific commit without history troubles (merge or rebase). Otherwise change quickly
-    git cherry-pick { hash of the commit }
