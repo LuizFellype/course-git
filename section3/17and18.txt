@@ -1,0 +1,8 @@
+# MELTING COMMITS
+
+-> picking one and squashing others = melt all commits in only one.
+-> it opens two interactive. 
+first: change options
+sec: rewrite the commit which is about to create with the squash 
+    
+    git rebase -i { initial commit } ~ { last commit }
