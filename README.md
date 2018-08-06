@@ -7,6 +7,6 @@
 
 <em>" -> "</em>   ===> Comment
 
-<em>"  "</em>     ===> Code
+<em>"  "</em>     ===> Command
 
 <em>" {} "</em>   ===> Reference
