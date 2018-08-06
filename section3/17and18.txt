@@ -6,3 +6,14 @@ first: change options
 sec: rewrite the commit which is about to create with the squash 
     
     git rebase -i { initial commit } ~ { last commit }
+
+AND 
+
+-> this creates a commit marked with 'fixup' in the beginning
+
+    git commit --fixup { hash of the commit }
+
+-> this pick the next commit and squash automaticly all of that commits that were marked
+-> open a interactive page in vim
+
+    git rebase -i --autosquash { hash before of the one you want to pick }
