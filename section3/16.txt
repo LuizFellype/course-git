@@ -1,0 +1,6 @@
+# COMMITING PARTS SPECIFICS OF THE FILE
+
+-> get into a interactive mode, most of the time will use 'y' and 'n' options. 
+-> it creates diferentes commits. 
+-> just do it in emergency cases it is more useful if commit each change
+    git add -p 
