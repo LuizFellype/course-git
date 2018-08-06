@@ -1,0 +1,17 @@
+#  REVERTING MASTER COMMITS
+
+* Good for branch master:
+-> keep the time line safe (history).
+    
+    git revert { hash of the commit }
+
+OR   
+
+* Good for seperated branchs:
+-> come back to the hash specified and ignores everything later.
+    
+    git reset --hard { hash of the commit }
+
+-> come back to the hash specified and put the another changes in stage.
+    
+    git reset --soft { hash of the commit }
