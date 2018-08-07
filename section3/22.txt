@@ -1,0 +1,6 @@
+#AUTOCORRECT
+
+-> Is there a way for vscode to try to figure out some typing error
+when to execute some command, and for this we have the command:
+
+    git config --global help.autocorrect 1
