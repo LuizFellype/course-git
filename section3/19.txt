@@ -1,0 +1,9 @@
+#RESOLVING CONFLICT WITH REBASE
+
+-> When the history of commits is changed alternately
+so that github does not accept a push to the remote is used
+it goes over this way:
+
+    git pull origin master --rebase 
+
+->For the history to be organized both in the local git both in github.
