@@ -1,9 +1,9 @@
-#RESOLVENDO CONFLITO COM REBASE
+#RESOLVING CONFLICT WITH REBASE
 
--> Quando o historico de commits é alterado de modo alternado
-de modo que o github não aceita um push para o remoto é ultilizado 
-o rebase dessa forma:
+-> When the history of commits is changed alternately
+so that github does not accept a push to the remote is used
+it goes over this way:
 
     git pull origin master --rebase 
 
-para que o historico seja organizado tanto no git local tanto no github.
+->For the history to be organized both in the local git both in github.

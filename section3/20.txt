@@ -1,0 +1,16 @@
+#MANUALLY RESOLVING CONFLICT
+
+-> Most conflicts happen when we are working as a team.
+A very common conflict is that of different users changing the same file in it
+local. This conflict can be resolved manually within the visual studio code.
+-> After trying to push the location to the remote repository where the
+files have been changed on the same line, the vscode itself will indicate where
+is the conflict, this way:
+<<<<<<< HEAD
+                      <tag>xxxxxxxxxxx</tag> 
+=======
+                      <tag>yyyyyyyyyyyy</tag> 
+>>>>>>>> hash do commit
+
+-> To solve the very easy, just delete the part that the user wants to remove and leave
+the one of your preference.
