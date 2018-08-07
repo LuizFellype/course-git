@@ -2,27 +2,27 @@
 
 -> To leave the history of commits in lines, use the command:
 
-    git log --pretty = oneline
+    git log --pretty=oneline
 
 -> To see the line graph of the commits, use the command:
 
-    git log --pretty = oneline --graph
+    git log --pretty=oneline --graph
 
 -> To see the graph of all the branches, use the command:
 
-    git log --pretty = oneline --graph --all
+    git log --pretty=oneline --graph --all
 
 -> To view commits from a date, use the command:
 
-    git log --since = Ex ('Jan 1 2018')
+    git log --since=Ex ('Jan 1 2018')
 
 -> To view the commits until a specific date, use the command:
 
-    git log --until = Ex ('Jan 1 2018')
+    git log --until=Ex ('Jan 1 2018')
 
 -> To view commits between dates (ps: do not take the commits of the days written in the command), use the command:
 
-    git log since = Ex ('Jan 1 2018') --until = Ex ('Jan 6 2018')
+    git log since=Ex ('Jan 1 2018') --until=Ex ('Jan 6 2018')
 
 -> To have a simple way to display git log, use the command:
     
@@ -34,7 +34,7 @@
 
 -> To filter the commits by author, use the command:
 
-    git log author = 'Name'
+    git log --author='Name'
 
 -> More git log commands at: https://git-scm.com/docs/git-log
 
