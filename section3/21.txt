@@ -1,0 +1,7 @@
+#MERGE CONTINUE
+
+-> To give continuity to the merge that was intercomposed with the conflict,
+just run the command:
+
+    git merge --continue 
+

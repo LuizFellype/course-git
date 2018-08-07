@@ -1,0 +1,13 @@
+#AUTOCORRECT
+
+-> Is there a way for vscode to try to figure out some typing error
+when to execute some command, and for this we have the command:
+
+    git config --global help.autocorrect 1
+
+#ARCHIVE
+
+-> When the user wants to send their files to another person
+in zip, just enter the command:
+
+    git archive master --format=zip --output=master.zip
