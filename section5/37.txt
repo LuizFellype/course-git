@@ -1,0 +1,8 @@
+# CENTRALIZED WORKFLOW
+
+* Unic branch (master)
+-> it could be used by few people (< 4), normaly. Not Recomended.
+
+    git commit ...
+    git pull origin master --rebase
+    git push origin master
