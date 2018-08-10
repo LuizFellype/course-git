@@ -1,0 +1,15 @@
+# GIT-FLOW EXTENSIONS
+
+* set of extensions for git
+-> branch model of Vicent Driensen
+-> it must be installed
+
+    git flow init
+    git flow feature start { name of the new feature }
+    git flow feature finish { name of the feature } 
+
+-> the 'finish' command 
+- merge with the develop {sort of the master in git};
+- delete the feature created going to the develop branch
+
+* there are more stuffs, but I didn't like this git-flow. So I wont write more. ;)
