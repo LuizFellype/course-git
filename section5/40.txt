@@ -1,0 +1,18 @@
+# FEATURE BRANCH WORKFLOW
+
+* branch for each feature and then make a PR to master
+-> avoid conflicts
+-> allow to work in parallel, so this is better to work in a big team
+
+-> dont use a branch master ever.  { Josmar Model }:
+
+    git fetch
+    git checkout -b { name of the new branch } origin/master
+    git commit ...
+    (git commit --amend)
+    git push origin { name of the branch } (--set-upstream)
+
+-> Go to github, compare and open a PR.
+-> After code review - (squash the unuseful commits) and merge with the master.
+
+
